@@ -626,7 +626,28 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.memory.pasrmanager@1.0.so \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.memory.pasrmanager@1.1.so \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so \
-    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib/libdolbyottcontrol.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdolbyottcontrol.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib/libdovi_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdovi_omx.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib64/libdolbyottcontrol.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdolbyottcontrol.so \
+    vendor/xiaomi/sm8350-common/proprietary/system/lib64/libdovi_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdovi_omx.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/bin/hw/dolbycodec2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/dolbycodec2 \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/dolbycodec2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dolbycodec2.rc \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/c2.dolby.avc.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.avc.dec.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/c2.dolby.avc.sec.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.avc.sec.dec.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/c2.dolby.client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.client.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/c2.dolby.egl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.egl.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/c2.dolby.hevc.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.hevc.dec.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/c2.dolby.hevc.enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.hevc.enc.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/c2.dolby.hevc.sec.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.hevc.sec.dec.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/c2.dolby.store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.store.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib/libcodec2_hidl@1.0.stock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.0.stock.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib/libcodec2_vndk.stock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk.stock.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/libdolbyottcameracontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyottcameracontrol.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/libdolbyvision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyvision.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_common.so \
+    vendor/xiaomi/sm8350-common/proprietary/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so
 
 PRODUCT_PACKAGES += \
     CACertService \
